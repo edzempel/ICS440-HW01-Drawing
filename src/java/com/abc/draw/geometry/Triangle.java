@@ -4,13 +4,16 @@ import java.awt.*;
 
 import com.abc.draw.*;
 
-public class Triangle implements Drawable{
+/**
+ * @author edzempel
+ */
+public class Triangle implements Drawable {
 
     private Point p1;
     private Point p2;
     private Point p3;
 
-    public Triangle (Point point, Point point2, Point point3) {
+    public Triangle(Point point, Point point2, Point point3) {
         this.p1 = point;
         this.p2 = point2;
         this.p3 = point3;

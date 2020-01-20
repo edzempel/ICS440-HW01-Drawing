@@ -4,6 +4,9 @@ import java.awt.*;
 
 import com.abc.draw.*;
 
+/**
+ * @author edzempel
+ */
 public class Square implements Drawable {
     private Point upperLeft;
     private double width;

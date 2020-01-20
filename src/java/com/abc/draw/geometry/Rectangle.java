@@ -4,6 +4,9 @@ import java.awt.*;
 
 import com.abc.draw.*;
 
+/**
+ * @author edzempel
+ */
 public class Rectangle extends Square implements Drawable {
     private double height;
 

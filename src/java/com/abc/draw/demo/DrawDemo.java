@@ -50,7 +50,7 @@ public class DrawDemo {
         DrawingComponent drawingComponent = new DrawingComponent(drawing);
 
         JFrame.setDefaultLookAndFeelDecorated(true);
-        JFrame f = new JFrame("DrawDemo");
+        JFrame f = new JFrame("DrawDemo-Edward Zempel");
         f.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         f.setContentPane(drawingComponent);
         f.setSize(800, 450);
